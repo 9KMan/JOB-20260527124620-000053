@@ -1,0 +1,22 @@
+# Worker-internal files - NEVER push to GitHub
+PROPOSAL.md
+COVER_LETTER.txt
+SPEC.txt
+TASK.txt
+pid
+role
+worker.log
+
+# Project-specific ignores
+ats-api/node_modules/
+resume-parser/__pycache__/
+resume-parser/*.pyc
+resume-parser/.env
+resume-parser/venv/
+resume-parser/.venv/
+ats-api/.env
+*.log
+.DS_Store
+dist/
+build/
+coverage/
